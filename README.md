@@ -5,9 +5,11 @@ Based off MelGAN-VC by Marco Pasini ([github](https://github.com/marcoppasini/Me
 ## Installation
 
 Install python requirements:
-	virtualenv venv
-	source venv/bin/activate
-	pip3 install -r requirements.txt
+```
+virtualenv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
 
 ## Training
 
@@ -16,4 +18,6 @@ The recommend dataset for this project is GTZAN available: http://marsyas.info/d
 All audio files in the training data must be converted to .wav files before training.
 
 Run train script:
-	python3 train.py DIRECTORY_CONTAINING_CONTENT_AUDIO_FILES DIRECTORY_CONTAINING_STYLE_AUDIO_FILES
+```
+python3 train.py DIRECTORY_CONTAINING_CONTENT_AUDIO_FILES DIRECTORY_CONTAINING_STYLE_AUDIO_FILES
+```
