@@ -15,9 +15,6 @@ import math
 import heapq
 from torchaudio.transforms import MelScale, Spectrogram
 
-# os.chdir("open_unmix_pytorch")
-from open_unmix_pytorch import split_test
-# os.chdir("..")
 use_cuda = torch.cuda.is_available()
 device = torch.device("cuda" if use_cuda else "cpu")
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
