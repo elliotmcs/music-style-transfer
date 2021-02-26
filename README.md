@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 ## Training
 
 Dataset:
-The recommend dataset for this project is GTZAN available: http://marsyas.info/downloads/datasets.html
+The recommend dataset for this project is GTZAN available: http://marsyas.info/downloads/datasets.html \
 All audio files in the training data must be converted to .wav files before training.
 
 Run train script:
